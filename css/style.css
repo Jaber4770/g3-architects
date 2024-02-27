@@ -120,6 +120,7 @@ nav h3{
 /* Feature list section */
 .feature-list-container{
     display: flex;
+    position: relative;
 }
 .feature-list-title{
     font-size: 3.5rem;
@@ -127,7 +128,6 @@ nav h3{
     padding-left: 15px;
 }
 .feature-list-info{
-    width: 50%;
     padding-top: 2%;
     padding-right: 7%;
 }
@@ -135,22 +135,36 @@ nav h3{
     padding-top: 25px;
 
 }
-
 .feature-box{
-    box-shadow: 0px 0px 5px 2px rgb(197, 197, 197);
-    padding: 20px 15px;
+    box-shadow: 0px 4px 30px 0px rgb(197, 197, 197);
+    padding: 30px;
     border-radius: 5px;
     margin-top: 20px;
 }
-
-
-
-.feature-img-container{
-    width: 50%;
+.feature-box>p{
+    padding-top: 20px;
 }
-.feature-img-container img{
-/* height: 80%;} */
-}  
+.experience{
+    height: 200px;
+    width: 340px;
+    background-color: #FF900E;
+    position: absolute;
+    bottom: -8%;
+    right: 30%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.experience-p{
+    font-weight: 500;
+    font-size: 2rem;
+}
 
 /* fact style */
 .fact-title{
@@ -161,7 +175,6 @@ nav h3{
 }
 .fact-cart{
     display: flex;
-    justify-content: space-between;
     padding: 0px 100px;
 }
 .fact-box{
@@ -174,6 +187,7 @@ nav h3{
 }
 .fact-box h2{
     padding: 10px 0;
+    font-size: 2.5rem;
 }
 /* sponsor section style */
 .sponsor{
@@ -210,9 +224,6 @@ footer{
 
 
 
-.hide{
-    display: none;
-}
 /* Responsive style */
 /* small device */
 @media screen and (max-width: 576px) {
