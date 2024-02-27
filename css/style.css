@@ -79,7 +79,7 @@ nav h3{
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding-top: 50px;
+    padding: 50px 70px 0px 70px;
 }
 .freature-team{
     display: grid;
@@ -120,26 +120,13 @@ nav h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive style */
 /* small device */
 @media screen and (max-width: 576px) {
 
-
+    main{
+        width: 90%;
+    }
     nav {
         flex-direction: column;
         width: 80%;
@@ -170,11 +157,34 @@ nav h3{
     .banner-info{
         width: 90%
     }
+    .feature-section-container{
+        flex-direction: column-reverse;
+        padding:  25px 10px;
+        margin: 0 auto;
+    }
+    .freature-team{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .feature-info{
+        width: 100%;
+    }
 }
 
 
 
 /* medium device */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-    
+    .feature-section-container{
+        flex-direction: column-reverse;
+        padding:  25px 10px;
+        margin: 0 auto;
+    }
+    .freature-team{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .feature-info{
+        width: 100%;
+    }
 }
