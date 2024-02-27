@@ -273,6 +273,38 @@ footer{
     .feature-info{
         width: 100%;
     }
+    .feature-list-info{
+        padding-top: 0%;
+        padding-right: 0%;
+    }
+    .feature-list-container{
+        flex-direction: column;
+    }
+    .feature-box{
+        width: 80%;
+    }
+    .feature-img-container img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .experience{
+        margin: 0 auto;
+        position: static;
+        width: 80%;
+    }
+    .experience h1{
+        font-size: 2.5rem;
+    }
+    .feature-img-container{
+        margin-top: 50px;
+    }
+    .feature-img-container img{
+        width: 80%;
+    }
+    .feature-list-title{
+        font-size: 2rem;
+    }
     .fact-title{
         font-size: 2rem;
     }
@@ -350,5 +382,31 @@ footer{
     .sponsor-cart-container img{
         display: block;
         margin: 0 auto;
+    }
+    
+    .feature-list-container{
+        flex-direction: column;
+    }
+    .feature-box{
+        width: 80%;
+    }
+    .feature-img-container img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .experience{
+        margin: 0 auto;
+        position: static;
+        width: 80%;
+    }
+    .experience h1{
+        font-size: 2.5rem;
+    }
+    .feature-img-container{
+        margin-top: 50px;
+    }
+    .feature-img-container img{
+        width: 80%;
     }
 }
