@@ -195,7 +195,17 @@ nav h3{
     justify-content: space-between;
     filter: grayscale(1);
 }
-
+/* footer style */
+footer{
+    margin-bottom: 50px;
+}
+.footer-text{
+    background-color: #ffc078;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 
