@@ -23,7 +23,7 @@ main{
     margin: 0 auto;
 }
 section{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .text-gray{
@@ -175,8 +175,26 @@ nav h3{
 .fact-box h2{
     padding: 10px 0;
 }
+/* sponsor section style */
+.sponsor{
+    text-align: center;
+}
+.sponsor h1{
+    font-size: 3rem;
+}
+.sponsor-info-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.sponsor-description{
+ padding: 20px 0px 50px 0px;
+}
 
-
+.sponsor-cart-container{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(1);
+}
 
 
 
@@ -245,6 +263,29 @@ nav h3{
     .fact-box{
        width: 80%;
     }
+    .sponsor{
+        text-align: center;
+    }
+    .sponsor h1{
+        font-size: 2rem;
+    }
+    .sponsor-info-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .sponsor-description{
+     padding: 10px 0px 30px 0px;
+    }
+    
+    .sponsor-cart-container{
+        flex-direction: column;
+    }
+    .sponsor-cart-container img{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    
     
 }
 
@@ -275,5 +316,18 @@ nav h3{
     }
     .fact-box{
        width: 80%;
+    }
+    .sponsor-cart-container{
+        flex-direction: column;
+    }
+    .sponsor-cart-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:15px;
+        padding: 15px;
+    }
+    .sponsor-cart-container img{
+        display: block;
+        margin: 0 auto;
     }
 }
