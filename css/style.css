@@ -26,6 +26,11 @@ section{
     margin-bottom: 50px;
 }
 
+.text-gray{
+    color: gray;
+}
+
+
 /* Header Style */
 header {
     background-color: antiquewhite;
@@ -112,11 +117,64 @@ nav h3{
     font-weight: 700;
 }
 
+/* Feature list section */
+.feature-list-container{
+    display: flex;
+}
+.feature-list-title{
+    font-size: 3.5rem;
+    border-left: 5px solid rgb(255, 153, 0);
+    padding-left: 15px;
+}
+.feature-list-info{
+    width: 50%;
+    padding-top: 2%;
+    padding-right: 7%;
+}
+.list-description{
+    padding-top: 25px;
+
+}
+
+.feature-box{
+    box-shadow: 0px 0px 5px 2px rgb(197, 197, 197);
+    padding: 20px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
 
 
 
+.feature-img-container{
+    width: 50%;
+}
+.feature-img-container img{
+/* height: 80%;} */
+}  
 
-
+/* fact style */
+.fact-title{
+    font-size: 45px;
+}
+.fact-description{
+    padding: 30px 0 100px 0px;
+}
+.fact-cart{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.fact-box{
+    border: 1px solid rgb(255, 153, 0);
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+    padding: 50px 30px;
+    font-weight: bold;
+}
+.fact-box h2{
+    padding: 10px 0;
+}
 
 
 
